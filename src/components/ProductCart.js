@@ -7,7 +7,7 @@ const ProductCart = () => {
   const handleAddToCart = (product) => {
     setCartItems([...cartItems, product]);
   };
-// new
+// new thin
   const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
 
   return (
